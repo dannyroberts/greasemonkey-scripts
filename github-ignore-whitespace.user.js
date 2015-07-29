@@ -18,7 +18,7 @@ function createButton() {
 function updateButton() {
     var showWhitespace = $.getUrlVar("w");
     if (showWhitespace == 1) {
-        $("#ignore-whitespace").attr('href', '?w=0');
+        $("#ignore-whitespace").attr('href', '#');
         $("#ignore-whitespace").text('Show whitespace');
     } else {
         $("#ignore-whitespace").attr('href', '?w=1');
